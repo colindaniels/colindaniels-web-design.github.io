@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  used code from https://getbootstrap.com/  -->
+<head>
+    <meta charset="UTF-8">
+    <title>Latitude</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0;">
+        <a class="navbar-brand navbar-padding" style="background-color: lightblue; color: white;" href="landing-page.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="fig1.html">Latitude Vs. Temprature</a>
+                <a class="dropdown-item" href="fig2.html">Latitude Vs. Humidity</a>
+                <a class="dropdown-item" href="fig3.html">Latitude Vs. Cloudiness</a>
+                <a class="dropdown-item" href="fig4.html">Latidude Vs. Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>  
+          </ul>
+        </div>
+      </nav>
+      <div class="col-md-12 col-sm-6 my-column">
+        <div class="lightbox-gallery">
+          <div class="container">
+              <div class="intro">
+              </div>
+              <div class="container my-container">
+                  <h1 style="text-align: center;">Comparison: Latitude Vs. X</h1>
+                  <br>
+                  Click any plot to get an in-depth analysis
+                  <br><br>
+                <div class="row my-row">
+                    <div class="col-md-6 col-sm-6 my-col">
+                        <h2>Vs. Max Temprature</h2>
+                        <a href="fig1.html">
+                            <img src="images/Fig1.png" alt="fig1" height="300">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 my-col">
+                        <h2>Vs. Humidity</h2>
+                        <a href="fig2.html">
+                            <img src="images/Fig2.png" alt="fig2" height="300">
+                        </a>
+                    </div>
+                </div>
+                <div class="row my-row">
+                  <div class="col-md-6 col-sm-6 my-col">
+                    <h2>Vs. Cloudiness</h2>
+                    <a href="fig3.html">
+                        <img src="images/Fig3.png" alt="fig3" height="300">
+                    </a>
+                  </div>
+                  <div class="col-md-6 col-sm-6 my-col">
+                    <h2>Vs. Wind Speed</h2>
+                    <a href="fig4.html">
+                        <img src="images/Fig4.png" alt="fig4" height="300">
+                    </a>
+                  </div>
+              </div>
+            </div>
+
+      </div>
+    </div>
+      </div>
+
+</body>
+
+</html>

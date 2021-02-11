@@ -1,0 +1,55 @@
+body{
+    background-color: lightgray;
+}
+
+.margin-30 {
+    margin: 30px;
+}
+
+.navbar-padding {
+    background-color: lightblue;
+    margin-right: 70rem;
+    padding: 10px;
+}
+.my-container {
+    border: 20px;
+    background-color: white;
+}
+
+.my-row {
+    border: 3px;
+}
+
+.my-column {
+    border-right: 5em solid lightgray;
+    height: 30em;
+}
+
+h1 {
+    color: lightblue;
+}
+
+.image-border {
+    border-style: solid;
+    border-color: lightblue;
+}
+
+h2 {
+    color: lightblue;
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.center {
+    margin: 20px;
+    height: auto;
+    width: 80%;
+    padding: 0px; 
+    left: 10em;
+
+}
